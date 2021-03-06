@@ -1,11 +1,11 @@
 ﻿(function () {
     $(function () {
 
-        const _createOrEditVehicleModal = new app.ModalManager({
-            viewUrl: '/Vehicle/CreateOrEditModal',
-            scriptUrl:
-            modalClass: 'CreateOrEditVehicleModal'
-        });
+        //const _createOrEditVehicleModal = new app.ModalManager({
+        //    viewUrl: '/Vehicle/CreateOrEditModal',
+        //    scriptUrl:
+        //    modalClass: 'CreateOrEditVehicleModal'
+        //});
 
         const _$VehicleTable = $('#Vehicle');
         const _$VehicleService = abp.services.app.vehicle;
